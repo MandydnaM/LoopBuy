@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/",
+    "/Allproducts",
+    "/login",
+    "/shop",
+    "/shop/category",
+    "/shop/products"
+  ]
+}
