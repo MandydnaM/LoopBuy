@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Playfair Display', sans-serif !important;
+}
+
+.textBlur {
+    color: transparent;
+    text-shadow: 0 0 1px #202122;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: red !important;
+}
+
+
+
+.display-4 {
+    font-size: calc(1.475rem + 2.7vw) !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    color: red !important;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+a:hover {
+    color: red !important;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+    margin-top: 0;
+    color: black;
+}

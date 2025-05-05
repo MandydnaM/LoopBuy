@@ -1,0 +1,24 @@
+<div class="parent">
+    <div class="flip-container" id="flipBox">
+        <div class="flip-inner">
+            <!-- Login Form -->
+            <div class="flip-front">
+                <h2>Welcome Back</h2>
+                <form>
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" name="email" [(ngModel)]="loginObj.email" placeholder="Email" required />
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password" [(ngModel)]="loginObj.password" placeholder="Password"
+                            required />
+                    </div>
+                    <button type="button" (click)="onLogin()">Login</button>
+                </form>
+                <div class="switch-link" id="toSignup">Don't have an account? Sign Up</div>
+            </div>
+
+        </div>
+    </div>
+</div>

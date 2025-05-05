@@ -1,0 +1,45 @@
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+            <h1 class="display-4">Bestseller Products</h1>
+            <p>welcome to shopping here! we have colorful products with .....</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6 col-xl-4" *ngFor="let product of products">
+                <div class="p-4 rounded bg-light">
+                    <div class="row align-items-center">
+                        <!-- 图片列 -->
+                        <div class="col-6">
+                            <img [src]="product.productImageUrl" class="img-fluid h-100 w-100"
+                                alt="{{ product.productName }}">
+                        </div>
+
+                        <!-- 信息列 -->
+                        <div class="col-6">
+                            <!-- 产品名称-->
+                            <a href="#" class="h5">{{ product.productShortName }}</a>
+
+                            <!-- 评分 -->
+                            <div class="d-flex my-3">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+
+                            <!-- 价格 -->
+                            <h4 class="mb-3">{{ product.productPrice}} $</h4>
+
+                            <!-- 添加到购物车按钮 -->
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2"></i>
+                                Add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

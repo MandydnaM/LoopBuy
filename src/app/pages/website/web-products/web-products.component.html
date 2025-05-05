@@ -1,0 +1,59 @@
+<div class="poster">
+    <div class="focus-text">
+        <h1>Discover the Joy of Shopping, One Loop at a Time!</h1>
+        <p>LoopBuy is committed to promoting a sustainable future by offering a wide range of quality second-hand
+            products.
+            We believe in giving items a second life, reducing waste, and lowering the environmental impact of
+            consumerism.
+            Join us in
+            making eco-friendly choices while still enjoying stylish, affordable finds!</p>
+        <a [routerLink]="['/login']">Sell things</a>
+    </div>
+
+</div>
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+            <h1 class="display-4">New Arrivals</h1>
+            <p>welcome to shopping here! we have colorful products with .....</p>
+        </div>
+        <div class="row g-4">
+            <!-- 产品项循环 -->
+            <div class="col-lg-6 col-xl-4" *ngFor="let product of productList">
+                <div class="p-4 rounded bg-light">
+                    <div class="row align-items-center">
+                        <!-- 图片列 -->
+                        <div class="col-6">
+                            <img [src]="product.productImageUrl" class="img-fluid fixed-img"
+                                alt="{{ product.productName }}">
+                        </div>
+
+                        <!-- 信息列 -->
+                        <div class="col-6">
+                            <!-- 产品名称 -->
+                            <a href="#" class="h5">{{ product.productShortName }}</a>
+
+                            <!-- 评分 -->
+                            <div class="d-flex my-3">
+                                <i class="fas fa-star text-danger"></i>
+                                <i class="fas fa-star text-danger"></i>
+                                <i class="fas fa-star text-danger"></i>
+                                <i class="fas fa-star text-danger"></i>
+                                <i class="fas fa-star text-danger"></i>
+                            </div>
+
+                            <!-- 价格 -->
+                            <h4 class="mb-3">{{ product.productPrice}} €</h4>
+
+                            <!-- 添加到购物车按钮 -->
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-danger">
+                                <i class="fa fa-shopping-bag me-2"></i>
+                                buy now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
