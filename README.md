@@ -1,27 +1,22 @@
-# LoopBuy
+# ♻️ LoopBuy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+**LoopBuy** is a sustainable e-commerce platform that promotes second-hand shopping and circular economy. Built with Angular, it offers a modern, responsive interface to explore pre-loved products while contributing to a greener planet. 🌱🛍️
 
-## Development server
+## 🌟 Features  
+- 🌐 **API Integration**: Dynamically fetch product and category data from a backend service. 
+- 🔄 **Smooth Navigation**: Client-side routing powered by Angular Router.  
+- 🎯 **Focused UI**: Designed with Bootstrap for a clean, mobile-first experience.  
+- 🔍 **Search & Filter**: Quickly find what you need from a growing catalog.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Tech Stack  
+- **Frontend**: Angular, TypeScript, Bootstrap  
+- **State & Routing**: Standalone Components, Angular Router  
 
-## Code scaffolding
+## 📷 Screenshots  
+[homepage.png](https://postimg.cc/N5CtFqy8)  
+[products.png](https://postimg.cc/9Dw6f4HV)  
+[login.png](https://postimg.cc/VrgThnn9)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Made with ❤️ by MandydnaM
